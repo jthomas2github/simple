@@ -13,7 +13,8 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
-    ~/run_static.sh
+    ~/run_static
+    cd ~/ldra_workarea_c_cpp_10.1.0/Cpp_tunnel_lighting_system_tbwrkfls
     ldravault_upload testme3
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
