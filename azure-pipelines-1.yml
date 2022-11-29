@@ -16,6 +16,7 @@ steps:
     pwd
     cd ~
     pwd
+    ~/ldra_toolsuite_c_cpp_10.1.0/contestbed
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
