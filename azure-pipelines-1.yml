@@ -19,3 +19,11 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '/home/ubuntu/ldra_workarea_c_cpp_10.1.0/Cpp_tunnel_demo_tbwrkfls/Cpp_tunnel_demo_reports'
+    includeRootFolder: true
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
