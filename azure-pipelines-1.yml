@@ -25,5 +25,5 @@ steps:
     rootFolderOrFile: '/home/ubuntu/ldra_workarea_c_cpp_10.1.0/Cpp_tunnel_demo_tbwrkfls/Cpp_tunnel_demo_reports'
     includeRootFolder: true
     archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    archiveFile: '/home/ubuntu/results.zip'
     replaceExistingArchive: true
